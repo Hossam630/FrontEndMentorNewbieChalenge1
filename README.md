@@ -1,1 +1,1 @@
-# FrontEndMentorNewbieChalenge1
+# FrontEndMentorNewbieChallenge1
