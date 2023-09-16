@@ -12,8 +12,6 @@ body{
 }
 #card{
   margin:20px;
-  width:600px;
-  height:400px;
   background-color:white;
   border-radius:20px;
   box-shadow:30px 30px 34px -22px rgba(0,0,0,0.47);
@@ -33,17 +31,19 @@ body{
 display:inline-block; 
 vertical-align:top;  
 background-color:rgba(32,225,234);
-width:50%;
+width:100%;
 height:100%;
-padding:30px; 
+padding:20px;
+text-align:center;  
 }
 #rightSection{
   display:inline-block;
   vertical-align:top;
-  width:50%;
+  width:100%;
   height:100%;
   background-color:rgba(106,235,228);
   padding:30px;
+  text-align:center;
 }
 .price{
  display:inline-block;
@@ -86,4 +86,15 @@ padding:0;
 
 #lowerSection {
   color:white;
+}
+
+@media(min-width:570px){
+  #card{
+    width:600px;
+    height:400px;
+  } 
+  #leftSection,#rightSection{
+    width:50%;
+    text-align:left;
+  } 
 }
